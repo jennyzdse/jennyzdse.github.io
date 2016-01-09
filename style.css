@@ -1,0 +1,77 @@
+body {
+    text-align:center;
+    font-family: Georgia, "Times New Roman", 
+                 "Microsoft YaHei", "微软雅黑", 
+	         STXihei, "华文细黑", 
+	         serif;
+    background-color: gray;
+    margin: 20px;
+}
+
+h1   {
+   color: white;
+} 
+
+h2   {
+   color: white;
+   text-align:center
+} 
+
+p    {
+   color:green;
+   padding:20px;
+   margin:100px;
+}
+
+ 
+#content {
+    float:bottom;
+    height:auto;
+    text-align:left;
+    margin: 100px;
+}
+
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: green;
+
+}
+
+li {
+   float:left;
+}
+
+li a {
+   font-size: 18px;
+   display: inline-block;
+   color: #000;
+   text-align: right;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: #4CAF50;
+   color: white;
+}
+
+
+li a:hover:not(.active) {
+   background-color: #555;
+   color: white;
+}
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+th, td {
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+}
